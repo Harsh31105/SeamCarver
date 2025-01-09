@@ -1,0 +1,14 @@
+How to interact with this Seam Carving:
+
+- The simulation starts as paused. Use the space bar to unpause/pause the carving
+- Press "v" to make the program only carve vertically
+- Press "h" to make the program only carve horizontally
+- Press "e" to see the energies of each pixel
+    - The program will pause once you do this to give you a chance to see the energies,
+      and you can press the space bar again to unpause it
+- Press "w" to see the cumulative weight of each pixel
+    - The program will pause once you do this to give you a chance to see the weights,
+      and you can press the space bar again to unpause it
+    - For a design decision, we chose to only make this method for vertical so that the display
+      is representative of the image itself and resembles the shapes more
+- Press "u" to enter undoing mode, where the previously removed seams are reinserted into the image
